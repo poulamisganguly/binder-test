@@ -1,5 +1,7 @@
 name: example-environment
 channels:
   - conda-forge
+  - astra-toolbox/label/dev
 dependencies:
   - numpy
+  - astra-toolbox=1.9.0.dev10
